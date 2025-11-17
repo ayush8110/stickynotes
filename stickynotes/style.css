@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(218, 216, 216);
+    /* background-image: url(https://i.pinimg.com/736x/13/cb/be/13cbbeb08868c4118e8f6ee3719e3a15.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+
+
+#container{
+    text-align: center;
+    /* outline: solid black 2px ; */
+    height: 80vh;
+}
+
+
+#container .notes{
+    margin-right:100px;
+    text-transform:capitalize;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 700;
+    
+    font-size: 1rem;
+}
+
+
+#container .notes >h1{
+    word-spacing: 10px;
+    /* border: solid; */
+    /* color: white; */
+}
+
+
+
+
+
+
+#container .stickynotes{
+    text-transform:capitalize;
+    width:120px;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    /* border: solid; */
+}
+#container .textx{
+    border-radius: 20px;
+    outline: 1px rgb(207, 207, 207);
+    background-color: rgba(0, 0, 255, 0);
+    /* outline: solid blue; */
+}
+#container .textdiv{
+    /* border: solid;/ */
+    width:100px;
+    margin-left:75px;
+    border-radius: 20%;
+
+}
+
+#container .stick{
+    /* border: solid; */
+    /* display:inline; */
+    width: 30px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.082);
+    /* margin:0px 0px; */
+    position: absolute;
+    right: 5px;
+
+}
+#container .stickdiv{
+    position: absolute;
+    /* border: solid; */
+    /* width: 50px;
+    height: 50px; */
+    margin: -25px 50px 0px 300px;
+}
+
+.main{
+    /* border: solid; */
+    height:200px;
+    width:350px;
+    position: absolute;
+    top:10%;
+}
+
+
+.createNote{
+    height: 200px;
+    width:200px;
+    background-color: rgb(229, 238, 102);
+    margin:50px 0px 0px 70px;
+    border-radius: 15px;
+    padding: 5%;
+
+}
